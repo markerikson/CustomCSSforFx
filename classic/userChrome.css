@@ -96,8 +96,8 @@
 
 /* COLOR VARIABLES FOR DEFAULT BROWSER THEME ONLY - MAIN UI - only use one at a time ************/
 /* [!] set own colors for tabs & toolbars inside 'color_variables.css' or use available presets */
-@import url(./config/color_variables.css); /**/  /* <- default 'grey' colors */
-/* @import url(./config/color_variables_aero.css); /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
+/* @import url(./config/color_variables.css); /**/  /* <- default 'grey' colors */
+@import url(./config/color_variables_aero.css); /**/  /* <- 'AeroBlue' colors (Win 7 Aero) */
 /* @import url(./config/color_variables_classic-grey.css); /**/  /* <- 'classic grey' colors (Win Classic) */
 /* @import url(./config/color_variables_fx3.css); /**/  /* <- 'Firefox 3-like' blueish colors */
 /* @import url(./config/color_variables_transparent.css); /**/  /* <- (semi-)'transparent' colors */
@@ -109,7 +109,7 @@
 /************************************************************************************************/
 
 /* navigation toolbar buttons appearance - only use one at a time *******************************/
-@import url(./css/buttons/buttons_on_navbar_classic_appearance.css); /**/
+/* @import url(./css/buttons/buttons_on_navbar_classic_appearance.css); /**/
 /* @import url(./css/buttons/buttons_on_navbar_classic_appearance_v2.css); /**/
 /* @import url(./css/buttons/buttons_on_navbar_glass_appearance.css); /**/
 /* @import url(./css/buttons/buttons_on_navbar_osx_appearance.css); /**/
@@ -124,7 +124,7 @@
 /* @import url(./css/buttons/buttons_on_navbar_more_compact_mode.css); /**/
 
 /* icon appearance - only use one at a time (custom icons do not scale in HiDPI modes) **********/
-@import url(./css/buttons/icons_colorized.css); /**/
+/* @import url(./css/buttons/icons_colorized.css); /**/
 /* @import url(./css/buttons/icons_white_icons.css); /**/
 /* @import url(./css/buttons/icons_custom_icons.css); /**/  /* aka "Mozilla Mix" from CTB */
 /* @import url(./css/buttons/icons_custom_icons_fx1.css); /**/
@@ -141,7 +141,7 @@
 /* @import url(./css/buttons/icons_custom_icons_old_chrome.css); /**/
 /* @import url(./css/buttons/icons_custom_icons_old_osx.css); /**/
 /* @import url(./css/buttons/icons_custom_icons_tango.css); /**/
-/* @import url(./css/buttons/icons_custom_icons_fx45.css); /**/
+@import url(./css/buttons/icons_custom_icons_fx45.css); /**/
 /* @import url(./css/buttons/icons_custom_icons_fx45_inverted.css); /**/
 
 /* bookmarks toolbar - buttons appearance - only use one at a time ******************************/
@@ -576,7 +576,7 @@
 /************************************************************************************************/
 /************************************************************************************************/
 /* Create a new file "my_userChrome.css" and add own/custom code to it. *************************/
-/* @import url(./my_userChrome.css); /**/
+@import url(./my_userChrome.css); /**/
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/

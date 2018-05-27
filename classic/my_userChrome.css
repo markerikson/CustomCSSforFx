@@ -1,0 +1,47 @@
+
+
+#TabsToolbar {
+  visibility: collapse !important;
+}
+
+/*
+#titlebar-buttonbox {
+  height: 40px !important;
+}
+*/
+#sidebar-header {
+  display: none;
+}
+
+/*
+#nav-bar {
+  margin-top: -40px;
+  margin-right: 240px;
+  box-shadow: none !important;
+}
+*/
+
+/*
+[uidensity="compact"]:root #titlebar-buttonbox {
+  height: 32px !important;
+}
+
+[uidensity="compact"]:root #nav-bar {
+  margin-top: -32px;
+}
+*/
+
+/*
+#titlebar-spacer {
+  background-color: var(--chrome-secondary-background-color);
+}
+
+#titlebar-buttonbox-container {
+  background-color: var(--chrome-secondary-background-color);
+}
+*/
+/*
+.urlbar-page-action {
+    display:none !important;
+}
+*/
