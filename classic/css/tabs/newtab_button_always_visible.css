@@ -3,7 +3,10 @@
 /****************************************************************************************/
 
 
-/* menubar - hide fog */
-#main-window #main-menubar {
-  background: none !important;
+#new-tab-button {
+  visibility: visible !important;
+}
+
+.tabs-newtab-button {
+  visibility: collapse !important;
 }

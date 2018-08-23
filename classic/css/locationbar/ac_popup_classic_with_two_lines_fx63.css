@@ -1,0 +1,17 @@
+/* Firefox Quantum userChrome.css tweaks ************************************************/
+/* Github: https://github.com/aris-t2/customcssforfx ************************************/
+/****************************************************************************************/
+
+@import url(ac_popup_classic_with_two_lines.css);
+
+@-moz-document url(chrome://browser/content/browser.xul) {
+
+	#PopupAutoCompleteRichResult[autocompleteinput="urlbar"] {
+	  -moz-binding: url("./ac_popup_classic_with_two_lines_fx63.xml#urlbar-rich-result-popup") !important;
+	}
+
+	#PopupAutoCompleteRichResult[autocompleteinput="urlbar"] .autocomplete-richlistitem {
+	  -moz-binding: url("./ac_popup_classic_with_two_lines_fx63.xml#autocomplete-richlistitem") !important;
+	}
+
+}

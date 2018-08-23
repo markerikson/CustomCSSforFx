@@ -18,7 +18,6 @@
   --classic_squared_tabs_hovered_tabs: linear-gradient(to top,rgba(255,255,255,.1),rgba(255,255,255,.3)) !important;
   --classic_squared_tabs_other_tabs: linear-gradient(to top,rgba(255,255,255,.0),rgba(255,255,255,.2)) !important;
   --classic_squared_tabs_unloaded_tabs: linear-gradient(to top,rgba(255,255,255,.0),rgba(255,255,255,.2)) !important;
-  --classic_squared_tabs_unread_tabs: linear-gradient(to top,rgba(255,255,255,.0),rgba(255,255,255,.2)) !important;
   --classic_squared_tabs-border_size: 1px;
   --classic_squared_tabs-border1: rgba(0,0,0,.0) !important;
   --classic_squared_tabs-border2: rgba(0,0,0,.0) !important;
@@ -51,4 +50,10 @@ toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme)
 toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme) {
   -moz-appearance: none !important;
   box-shadow: unset !important;
+}
+
+/* menubar */
+#main-window:not(:-moz-lwtheme) #main-menubar > menu > :-moz-any(label,description) {
+  color: var(--general_toolbar_text_color, inherit) !important;
+  text-shadow: 1px 1px 1px var(--general_toolbar_text_shadow, inherit) !important;
 }

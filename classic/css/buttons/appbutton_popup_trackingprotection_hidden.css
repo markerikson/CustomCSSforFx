@@ -3,7 +3,10 @@
 /****************************************************************************************/
 
 
-/* menubar - hide fog */
-#main-window #main-menubar {
-  background: none !important;
+#appMenu-tp-label,
+#appMenu-tp-label + toolbarseparator,
+#appMenu-tp-toggle,
+.sync-ui-item + toolbaritem + toolbarseparator,
+#sync-ui-item + toolbaritem + toolbarseparator{
+  display: none !important;
 }

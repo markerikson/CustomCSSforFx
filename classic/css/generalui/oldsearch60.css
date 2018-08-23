@@ -3,7 +3,12 @@
 /****************************************************************************************/
 
 
-/* menubar - hide fog */
-#main-window #main-menubar {
-  background: none !important;
+@import url(oldsearch.css);
+
+searchbar {
+  -moz-binding: url("./oldsearch60.xml#searchbar") !important;
+}
+
+searchbar .searchbar-textbox {
+  -moz-binding: url("./oldsearch60.xml#searchbar-textbox") !important;
 }

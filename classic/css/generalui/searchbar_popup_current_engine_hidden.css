@@ -3,7 +3,7 @@
 /****************************************************************************************/
 
 
-/* menubar - hide fog */
-#main-window #main-menubar {
-  background: none !important;
+#PopupSearchAutoComplete .search-panel-current-engine,
+#PopupSearchAutoComplete .search-panel-current-input {
+  display: none !important;	
 }
